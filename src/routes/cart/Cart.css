@@ -1,0 +1,97 @@
+.cart_navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.731);
+}
+
+.alibaba_logo {
+    margin-left: 40px;
+    height: 40px;
+}
+
+.cart_navbar>h2 {
+    font-weight: 300;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.shopping_cart {
+    width: 100%;
+    height: 500px;
+    background-color: #f7f8fa;
+    padding-top: 100px;
+    overflow: auto;
+    padding-left: 200px;
+    position: relative;
+}
+
+.nul-div {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nul-div>span {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.cartprodct {
+    width: 70%;
+    height: 150px;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+    position: relative;
+}
+
+.cartprodct>img {
+    width: 100px;
+    object-fit: cover;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.cartprodct>h2 {
+    margin-left: 40px;
+}
+
+.cartprodct>svg {
+    position: absolute;
+    left: 90%;
+    font-size: 25px;
+    color: rgb(186, 175, 175);
+    cursor: pointer;
+}
+
+.summary {
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.293);
+    border-radius: 10px;
+    position: fixed;
+    top: 120px;
+    left: 78%;
+}
+
+.flex_p {
+    display: flex;
+    align-items: center;
+}
+
+.flex_p>p {
+    color: rgb(186, 175, 175);
+    margin-left: 30px;
+    margin-top: 20px;
+}
